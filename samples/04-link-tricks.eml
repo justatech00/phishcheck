@@ -1,0 +1,31 @@
+Return-Path: <info@nw-alerts.test>
+Received: from smtp.nw-alerts.test (smtp.nw-alerts.test [198.51.100.23])
+	by mx.mailhost.test (Postfix) with ESMTP id D4E2
+	for <alex@mailhost.test>; Thu, 24 Sep 2026 14:05:09 +0000 (UTC)
+Authentication-Results: mx.mailhost.test;
+	spf=pass smtp.mailfrom=nw-alerts.test;
+	dkim=pass header.d=nw-alerts.test;
+	dmarc=none header.from=nw-alerts.test
+From: "Northwind Bank" <info@nw-alerts.test>
+To: alex@mailhost.test
+Subject: Please verify your account
+Date: Thu, 24 Sep 2026 14:05:07 +0000
+Message-ID: <5521.verify@nw-alerts.test>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGJvZHk+CjxwPkRlYXIgdmFsdWVkIGN1c3RvbWVyLDwvcD4KPHA+V2Ugbm90aWNlZCBz
+dXNwaWNpb3VzIGFjdGl2aXR5LiBWZXJpZnkgeW91ciBhY2NvdW50IG5vdyB0byBhdm9pZCBzdXNw
+ZW5zaW9uOjwvcD4KPHA+PGEgaHJlZj0iaHR0cDovLzE5OC41MS4xMDAuMjMvbm9ydGh3aW5kL2xv
+Z2luLnBocCI+aHR0cHM6Ly93d3cubm9ydGh3aW5kYmFuay5leGFtcGxlL2xvZ2luPC9hPjwvcD4K
+PHA+U2hvcnQgbGluazogPGEgaHJlZj0iaHR0cHM6Ly9iaXQubHkvM3hZekZhS2UiPnNlY3VyZSBs
+b2dpbjwvYT48L3A+CjxwPk1vYmlsZSB1c2VyczogPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGh3
+aW5kYmFuay5leGFtcGxlQDIwMy4wLjExMy41MC92ZXJpZnkiPnd3dy5ub3J0aHdpbmRiYW5rLmV4
+YW1wbGUvdmVyaWZ5PC9hPjwvcD4KPHA+QWx0ZXJuYXRpdmU6IDxhIGhyZWY9Imh0dHBzOi8veG4t
+LW5vcnRod25kYmFuay05ZGIuZXhhbXBsZS9hY2NvdW50Ij5ub3J0aHdpbmRiYW5rLmV4YW1wbGUv
+YWNjb3VudDwvYT48L3A+CjxwPjxhIGhyZWY9Imh0dHBzOi8vc2VjdXJlLmxvZ2luLmFjY291bnQu
+dmVyaWZ5Lm5vcnRod2luZGJhbmsuZXhhbXBsZS5zZXNzaW9uLXVwZGF0ZS50ZXN0LyI+VXBkYXRl
+IHlvdXIgZGV0YWlsczwvYT48L3A+CjxwPlF1ZXN0aW9ucz8gVmlzaXQgb3VyIDxhIGhyZWY9Imh0
+dHBzOi8vd3d3Lm5vcnRod2luZGJhbmsuZXhhbXBsZS9oZWxwIj5oZWxwIGNlbnRyZTwvYT4uPC9w
+Pgo8L2JvZHk+PC9odG1sPgo=

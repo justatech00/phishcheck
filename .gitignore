@@ -1,0 +1,3 @@
+# Real emails you analysed while testing (may contain private data)
+*.eml
+!samples/*.eml

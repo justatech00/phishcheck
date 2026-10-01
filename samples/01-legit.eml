@@ -1,0 +1,45 @@
+Return-Path: <notifications@northwindbank.example>
+Received: from mail-out1.northwindbank.example (mail-out1.northwindbank.example [192.0.2.10])
+	by mx.mailhost.test (Postfix) with ESMTPS id 4B2C91A0
+	for <alex@mailhost.test>; Mon, 21 Sep 2026 09:14:02 +0000 (UTC)
+Received: from app03.internal.northwindbank.example (app03.internal.northwindbank.example [10.4.0.33])
+	by mail-out1.northwindbank.example (Postfix) with ESMTP id 77D1
+	for <alex@mailhost.test>; Mon, 21 Sep 2026 09:14:01 +0000 (UTC)
+Authentication-Results: mx.mailhost.test;
+	spf=pass smtp.mailfrom=northwindbank.example;
+	dkim=pass header.d=northwindbank.example;
+	dmarc=pass header.from=northwindbank.example
+From: Northwind Bank <notifications@northwindbank.example>
+To: Alex Doe <alex@mailhost.test>
+Subject: Your September statement is ready
+Date: Mon, 21 Sep 2026 09:14:00 +0000
+Message-ID: <20260921091400.77D1@northwindbank.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1_northwind_statement"
+
+--b1_northwind_statement
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Alex,
+
+Your September statement is now available in online banking.
+View it here: https://www.northwindbank.example/statements
+
+We will never ask for your password by email.
+
+Northwind Bank
+
+--b1_northwind_statement
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Hi Alex,</p>
+<p>Your September statement is now available in online banking.</p>
+<p><a href="https://www.northwindbank.example/statements">View your statement</a></p>
+<p>We will never ask for your password by email.</p>
+<p>Northwind Bank</p>
+</body></html>
+
+--b1_northwind_statement--

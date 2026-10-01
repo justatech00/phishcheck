@@ -1,0 +1,30 @@
+Return-Path: <alerts@northwlndbank.example>
+Received: from mx1.northwlndbank.example (mx1.northwlndbank.example [198.51.100.77])
+	by mx.mailhost.test (Postfix) with ESMTP id E9B0
+	for <alex@mailhost.test>; Fri, 25 Sep 2026 07:30:22 +0000 (UTC)
+Authentication-Results: mx.mailhost.test;
+	spf=pass smtp.mailfrom=northwlndbank.example;
+	dkim=pass header.d=northwlndbank.example;
+	dmarc=pass header.from=northwlndbank.example
+From: =?UTF-8?B?Tm9ydGh3aW5kIEJhbms=?= <alerts@northwlndbank.example>
+To: alex@mailhost.test
+Subject: =?UTF-8?B?4pqg77iPIEFjdGlvbiByZXF1aXJlZDogeW91ciBhY2NvdW50IGlzIGxvY2tlZA==?=
+Date: Fri, 25 Sep 2026 07:30:20 +0000
+Message-ID: <lock-8842@northwlndbank.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body>
+<p>Dear customer,</p>
+<p>Your account has been locked after 3 failed login attempts. To unlock it=
+, please sign in within 12 hours:</p>
+<p><a href=3D"https://www.northwlndbank.example/unlock">Unlock my account<=
+/a></p>
+<p>You can also pay any outstanding fees through our partner <a href=3D"htt=
+ps://c0ntoso-payments.example/pay">Contoso Pay</a> or <a href=3D"https://co=
+ntos0.example/pay">contoso.example</a>.</p>
+<p>Sign-in help: <a href=3D"https://www.northvvindbank.example/help">help c=
+entre</a></p>
+<p>Thank you,<br>Northwind Bank =E2=80=93 Security</p>
+</body></html>

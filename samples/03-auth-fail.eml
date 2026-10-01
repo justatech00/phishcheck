@@ -1,0 +1,29 @@
+Return-Path: <payroll@northwindbank.example>
+Received: from mail.northwindbank.example (unknown [203.0.113.66])
+	by mx.mailhost.test (Postfix) with ESMTP id C1A0
+	for <alex@mailhost.test>; Wed, 23 Sep 2026 03:12:44 +0000 (UTC)
+Received: from localhost (vps-2291.cheap-hosting.test [203.0.113.66])
+	by vps-2291.cheap-hosting.test (Postfix) with SMTP id 11
+	for <alex@mailhost.test>; Wed, 23 Sep 2026 03:12:43 +0000 (UTC)
+Authentication-Results: mx.mailhost.test;
+	spf=fail (sender IP is 203.0.113.66) smtp.mailfrom=northwindbank.example;
+	dkim=none (message not signed);
+	dmarc=fail (p=reject) header.from=northwindbank.example
+From: Northwind Bank Payroll <payroll@northwindbank.example>
+To: alex@mailhost.test
+Subject: Salary payment on hold - action needed
+Date: Wed, 23 Sep 2026 03:12:40 +0000
+Message-ID: <0001@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Your salary payment has been put on hold because your details
+are out of date. Please update your card number and PIN today
+to avoid a delay:
+
+https://www.northwindbank.example/payroll/update
+
+Payroll Department

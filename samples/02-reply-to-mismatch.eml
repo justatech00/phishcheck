@@ -1,0 +1,30 @@
+Return-Path: <bounce-7731@bulkmail-relay.test>
+Received: from bulkmail-relay.test (bulkmail-relay.test [203.0.113.14])
+	by mx.mailhost.test (Postfix) with ESMTP id 9F3E
+	for <alex@mailhost.test>; Tue, 22 Sep 2026 22:41:17 +0000 (UTC)
+Authentication-Results: mx.mailhost.test;
+	spf=softfail smtp.mailfrom=bulkmail-relay.test;
+	dkim=none;
+	dmarc=fail header.from=northwindbank.example
+From: "Northwind Bank Security" <security@northwindbank.example>
+Reply-To: "Account Team" <northwind.verify@freemail-inbox.test>
+To: alex@mailhost.test
+Subject: URGENT: Unusual sign-in detected on your account
+Date: Tue, 22 Sep 2026 22:41:15 +0000
+Message-ID: <a81f0c2e@bulkmail-relay.test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We detected an unusual sign-in attempt on your account.
+For your security, your account will be suspended within 24 hours
+unless you confirm your identity.
+
+Reply to this email immediately with your username, password and
+the 6-digit code sent to your phone.
+
+Failure to respond will result in permanent account closure.
+
+Northwind Bank Security Team

@@ -1,0 +1,49 @@
+Return-Path: <ap@fabrikam.example>
+Received: from mail.fabrikam.example (mail.fabrikam.example [192.0.2.80])
+	by mx.mailhost.test (Postfix) with ESMTPS id F0A7
+	for <alex@mailhost.test>; Mon, 28 Sep 2026 16:48:51 +0000 (UTC)
+Authentication-Results: mx.mailhost.test;
+	spf=pass smtp.mailfrom=fabrikam.example;
+	dkim=fail (body hash mismatch) header.d=fabrikam.example;
+	dmarc=fail header.from=fabrikam.example
+From: Fabrikam Accounts Payable <ap@fabrikam.example>
+Reply-To: ap.fabrikam@freemail-inbox.test
+To: alex@mailhost.test
+Subject: RE: Invoice 0923 - updated bank details
+Date: Mon, 28 Sep 2026 16:48:49 +0000
+Message-ID: <inv0923.4471@fabrikam.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==MIX_0923=="
+
+--==MIX_0923==
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Please find attached invoice 0923. Note that our bank details have
+changed. Kindly wire the payment to the new account listed in the
+attached file today, as this invoice is overdue.
+
+Please keep this confidential until the transfer is complete.
+
+Regards,
+Accounts Payable
+
+--==MIX_0923==
+Content-Type: text/html; name="invoice_0923.html"
+Content-Disposition: attachment; filename="invoice_0923.html"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGJvZHk+PHA+cGhpc2hjaGVjayB0ZXN0IGF0dGFjaG1lbnQuIEhhcm1sZXNzIHBsYWNl
+aG9sZGVyLCBub3QgYSByZWFsIGludm9pY2UuPC9wPjwvYm9keT48L2h0bWw+Cg==
+
+--==MIX_0923==
+Content-Type: application/zip; name="payment_details.zip"
+Content-Disposition: attachment; filename="payment_details.zip"
+Content-Transfer-Encoding: base64
+
+cGhpc2hjaGVjayB0ZXN0IGF0dGFjaG1lbnQuIEhhcm1sZXNzIHBsYWNlaG9sZGVyIHRleHQsIG5v
+dCBhIHJlYWwgemlwIGFyY2hpdmUuCg==
+
+--==MIX_0923==--
