@@ -14,6 +14,15 @@ It works **fully offline**. It never opens links, never downloads
 anything, and never opens attachments. It only reads the text of the
 `.eml` file.
 
+```
+           __    _      __         __              __
+    ____  / /_  (_)____/ /_  _____/ /_  ___  _____/ /__        \\   \\   \\    ___
+   / __ \/ __ \/ / ___/ __ \/ ___/ __ \/ _ \/ ___/ //_/  |\     \\   \\   \\  /   \
+  / /_/ / / / / (__  ) / / / /__/ / / /  __/ /__/ ,<     | >====##===##===##=( x  >
+ / .___/_/ /_/_/____/_/ /_/\___/_/ /_/\___/\___/_/|_|    |/     //   //   //  \___/
+/_/                                                            //   //   //
+```
+
 This is a learning project, built stage by stage to learn PowerShell.
 
 ## Requirements
